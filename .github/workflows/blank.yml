@@ -33,7 +33,7 @@ jobs:
         run: docker build -t ghcr.io/annapatser/04.12-24-docker/node-app:latest .
 
       - name: Push Docker
-        run:  ghcr.io/annapatser/04.12-24-docker/node-app:latest
+        run: docker push ghcr.io/annapatser/04.12-24-docker/node-app:latest
 
 
     
